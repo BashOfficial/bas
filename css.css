@@ -1,0 +1,89 @@
+* {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+body {
+    background-color: #FDEB6B;
+    background-size: 100%;
+    margin: 0px;
+}
+
+.main {
+    padding: 24px;
+}
+
+h1 {
+    text-shadow: 1px 1px 4px black;
+}
+
+p {
+    text-shadow: 1px 1px 4px black;
+}
+
+button {
+    text-shadow: 1px 1px 4px black;
+}
+
+.taber {
+    font-size: 24px;
+    position: fixed; /* Фиксированное положение */
+    left: 0; up: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #A201FF; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+.lod {
+    display: block;
+    width: 100%;
+    height: 26px;
+    color: black;
+    background-color: #DDCC5F;
+    border: none;
+    border-radius: 24px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.lodf {
+    display: block;
+    width: 100%;
+    height: 26px;
+    color: black;
+    background-color: #DDCC5F;
+    border: none;
+    border-radius: 24px;
+    padding: 8px;
+	padding-bottom: 16px;
+    margin-bottom: 8px;
+}
+
+.lodbut {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: #DDCC5F;
+    border: none;
+    border-radius: 24px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+    
+
+.down {
+    padding: 16px;
+    color: #E9AF09;
+    font-size: 24px;
+    background-color: #4F1257;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.down:hover {
+    background-color: #E9AF09;
+    color: #4F1257;
+}
